@@ -1,0 +1,101 @@
+.module-grid::after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.module-grid__cell-12 {
+	width: 100%;
+	float: left;
+}
+
+.module-grid__cell-11 {
+	float: left;
+	width: 91.66667%
+}
+
+
+.module-grid__cell-10 {
+	float: left;
+	width: 83.33334%
+}
+
+.module-grid__cell-9 {
+	float: left;
+	width: 75%;
+}
+
+.module-grid__cell-8 {
+	float: left;
+	width: 66.66667%
+}
+
+.module-grid__cell-7 {
+	float: left;
+	width: 58.33334%
+}
+
+.module-grid__cell-6 {
+	float: left;
+	width: 50%;
+}
+
+.module-grid__cell-5 {
+	float: left;
+	width: 41.66667%
+}
+
+
+.module-grid__cell-4 {
+	float: left;
+	width: 33.33334%
+}
+
+.module-grid__cell-3 {
+	float: left;
+	width: 25%;
+}
+
+.module-grid__cell-2 {
+	float: left;
+	width: 16.66667%
+}
+
+.module-grid__cell-1 {
+	float: left;
+	width: 8.33334%
+}
+
+.content-module-grid{
+	margin: 0;
+	padding: 0;
+	background-color: #e2e2e2;
+	border: 1px solid #9f9f9f; 
+	min-height: 50px;	
+}
+.empty-module-grid{
+	opacity: 0;
+	min-height: 50px;	
+}
+
+/* с отступами */
+
+.module-grid--gutters-10 {
+	margin: 0 -10px;
+}
+
+.module-grid--gutters-10 > * {
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.module-grid--gutters-20 {
+	margin: 0 -20px;
+}
+
+.module-grid--gutters-20 > * {
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
