@@ -3,30 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>blog</title>
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/module-grid.css">
 </head>
 <body >
 	<header  >
 		<div class="header-content">
-		<div id="center">
+		<div class="logo center">
 			<div class="logo-img">
 				<img src="image/logo.png" alt >
 			</div>
 			<div class ="logo-text">
 				<p>BLOG+</p>
 			</div>
-			
 			</div>
-		<div class="nav" id="center">
+			
+		<div class="nav center">
 			<nav>
 				<ul class="nav-list"> 
 					<li class="nav-list__item">
 						<a href="#" class="nav-list__link">РУБРИКА</a>
 					</li>
 					<li class="nav-list__item">
-						<a href="#" class="nav-list__link">ГАЛЕРЕЯ</a>
+						<a href="#" class="nav-list__link has__submenu">ГАЛЕРЕЯ</a>
 						<ul class="sub-list">
 							<li class="sub-list__item">
 								<a href="#" class="sub-list__link">Lorem ipsum 1</a>
@@ -49,19 +49,24 @@
 				</ul>
 			</nav>			
 		</div>		
-			<div class="enter" id="center">
+			<div class="enter center">
 				<a href="#" class="enter-link">ВХОД</a>
 			</div>	
 	</div>	
 	</header>
-<div class="pusto"></div>
+	<div class="empty"></div>
 	<div class="clear"></div>
 <div class="block-content">
 	<section><!--флоаты без отступа-->	
+		<div class="module-grid__cell-12">
+		<div class="content-line">	
+			<h2 class="title">Сетка флоатов (12 позиций)</h2>	
+		</div>
+		<div class="clear"></div>
+		</div>
 		<div class="module-grid__cell-2">
 		<div class="content-line">	
-			<h2>Сетка флоатов (12 позиций)</h2>
-			<div></div>
+			<div class="decor-line"></div>
 		</div>
 		</div>
 			<div class="clear"></div>
@@ -113,13 +118,18 @@
 	</section>
 	<div class="clear"></div>
 	<section>
-			<!--флоаты с отступами-->	
-		<div class="module-grid__cell-2">	
-			<div class="content-line">
-				<h2>Сетка флоатов, с отступами</h2>
-				<div></div>
-			</div>
+			<!--флоаты с отступами-->
+		<div class="module-grid__cell-12">
+		<div class="content-line">	
+			<h2 class="title">Сетка флоатов, с отступами</h2>	
 		</div>
+		<div class="clear"></div>
+		</div>
+		<div class="module-grid__cell-2">
+		<div class="content-line">	
+			<div class="decor-line"></div>
+		</div>
+		</div>	
 
 			<div class="clear"></div>
 			<div class="module-grid">
@@ -167,18 +177,23 @@
 					</div>
 				
 				</div>	
-			</div>
+	</div>
 			
 		
 	</section>
 	<div class="clear"></div>
 	<section><!--отзывы посетителей-->
-	<div class="module-grid__cell-2">	
-		<div class="content-line">
-				<h2>Отзывы посетителей нашего сайта</h2>
-				<div></div>
+	<div class="module-grid__cell-12">
+		<div class="content-line">	
+			<h2 class="title">Отзывы посетителей нашего сайта</h2>	
 		</div>
-	</div>
+		<div class="clear"></div>
+		</div>
+		<div class="module-grid__cell-2">
+		<div class="content-line">	
+			<div class="decor-line"></div>
+		</div>
+		</div>	
 		<div class="clear"></div>
 		<div class="reviews">
 			<div class="module-grid__cell-2">
@@ -211,15 +226,22 @@
 		</div>	
 	</section>
 
-	<div class="clear"></div>		
+		<div class="clear"></div>		
 	<section><!--галерея-->
-	<div class="module-grid__cell-5 empty-module-grid"></div>
-	<div class="module-grid__cell-2" id="center">
-		<div class="content-line">
-				<h2>Галерея</h2>
-				<div></div>
-			</div>
-	</div>
+	
+		<div class="module-grid__cell-12 center">
+		<div class="content-line">	
+			<h2 class="title">Галерея</h2>	
+		</div>
+		<div class="clear"></div>
+		</div>
+		<div class="module-grid__cell-5 empty-module-grid"></div>
+		<div class="module-grid__cell-2 center">
+		<div class="content-line">	
+			<div class="decor-line"></div>
+		</div>
+		</div>	
+	
 	
 		<div class="clear"></div>
 		<div class="module-grid module-grid--gutters-10">
@@ -228,7 +250,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -237,7 +259,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -246,7 +268,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -255,7 +277,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -264,7 +286,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -273,7 +295,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -282,7 +304,7 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
@@ -291,20 +313,317 @@
 				<div class="box-galery">
 					<img src="image/galery.png" alt class="galery-img">
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur<br>
+				<p>Lorem ipsum dolor sit amet, consectetur
 				Lorem ipsum dolor sit amet,</p>
 				</div>
 			</div>
 		</div>
-		
-		</div>
-		</div>
-		</div>
-	</div>
-			
 		
 	</section>
+	<section><!--формы-->
+		<div class="module-grid__cell-12">
+		<div class="content-line">	
+			<h2 class="title">Элементы фрмы</h2>	
+		</div>
+		<div class="clear"></div>
+		</div>
+		<div class="module-grid__cell-2">
+		<div class="content-line">	
+			<div class="decor-line"></div>
+		</div>
+		</div>	
+
+			<div class="clear"></div>
+			<div class=" module-grid module-grid--gutters-20">
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label>Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element" placeholder="Input text placeholder">
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element" value="Input value">
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element" placeholder="Focus state">
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label>Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element" value="Focus state Input value">
+						</div>
+					</label>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element1 ui-control__element1--icon-lock" placeholder="Input text placeholder">
+							<span class="icon-lock" data-icon="sprit"></span>
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element1 ui-control__element1--icon-lock" value="Input value">
+							<span class="icon-lock" data-icon="sprit"></span>
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element1 ui-control__element1--icon-lock" placeholder="Focus state">
+							<span class="icon-lock" data-icon="sprit"></span>
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+						<div class="ui-control">
+							<input  type="text" class="ui-control__element1 ui-control__element1--icon-lock" value="Focus state Input value">
+							<span class="icon-lock" data-icon="sprit"></span>
+						</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+							<div class="ui-control ui-control__element--arrow">
+								<select class="ui-control__select">
+									<option> select items</option>
+		
+								</select> 
+							</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+    					 <br>
+							<div class="ui-control ui-control__element--arrow">
+								<select class="ui-control__select">
+									<option> select items</option>
+		
+								</select> 
+							</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+
+					<form action="url">
+					<label >Lorem ipsum 
+     					<br>
+							<div class="ui-control ui-control__select--arrow ">
+								<select class="ui-control__select ui-control__select--icon-tel">
+									<option> select items (focus)</option>
+								</select> 
+								<span class="icon-tel" data-icon="sprit"></span>
+							</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-3">
+					<form action="url">
+					<label >Lorem ipsum 
+     					<br>
+							<div class="ui-control ui-control__select--arrow ">
+								<select class="ui-control__select ui-control__select--icon-tel">
+									<option> select items (focus)</option>
+								</select> 
+								<span class="icon-tel" data-icon="sprit"></span>
+							</div>
+					</label>
+					</form>
+				</div>
+				<div class="module-grid__cell-6">
+					<span>Loren ipsum</span>
+					<br>
+					<div>
+				<ul class="checked">
+					<li class="checked__li">
+						<label class="checkbox">
+ 				 		<input type="checkbox" />
+ 							 <div class="checkbox__text">Lorem ipsum dolor.</div>
+						</label>
+					</li>
+					<li  class="checked__li">
+						<label class="checkbox">
+  							<input type="checkbox" />
+ 								<div class="checkbox__text">Lorem ipsum dolor.</div>
+						</label>
+					</li>
+					<li  class="checked__li">
+						<label class="checkbox">
+  						<input type="checkbox" />
+  							<div class="checkbox__text">Lorem ipsum dolor.</div>
+						</label>
+					</li>
+				</ul>
+				</div>	
+				</div>
+				<div class="module-grid__cell-6">
+					<span>Loren ipsum</span>
+					<br>
+					<div>
+						<ul class="checked">
+								<li class="checked__li">
+									<label class="radio">
+						  				<input type="radio" />
+						 					 <div class="radio__text">Lorem ipsum dolor.</div>
+									</label>
+								</li>
+								<li  class="checked__li">
+									<label class="radio">
+						  				<input type="radio" />
+						 				 <div class="radio__text">Lorem ipsum dolor.</div>
+									</label>
+								</li>
+								<li  class="checked__li">
+									<label class="radio">
+						  				<input type="radio" />
+						  				<div class="radio__text">Lorem ipsum dolor.</div>
+									</label>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="module-grid__cell-6">
+					<form action="url">
+						<label>Lorem ipsum
+							<br>
+							<div  class="textarea">
+							<input  type="text" class="textarea__element" placeholder="Textarea placeholder">
+							</div>
+						</label> 
+					</form>
+				</div>
+				<div class="module-grid__cell-6">
+					<form action="url">
+						<label>Lorem ipsum
+							<br>
+							<div  class="textarea">
+							<input  type="text" class="textarea__element" value="Textarea value">
+							</div>
+						</label> 
+					</form>
+				</div>
+				<div class="module-grid__cell-6">
+					<form action="url">
+						<label>Lorem ipsum
+							<br>
+							<div  class="textarea">
+							<input  type="text" class="textarea__element1 textarea__element--icon-ans" placeholder="Textarea placeholder">
+							<span class="icon-ans" data-icon="sprit"></span>
+							</div>
+						</label> 
+					</form>
+				</div>
+				<div class="module-grid__cell-6">
+					<form action="url">
+						<label>Lorem ipsum
+							<br>
+							<div  class="textarea">
+							<input  type="text" class="textarea__element1 textarea__element--icon-ans" value="Textarea value">
+							<span class="icon-ans" data-icon="sprit"></span>
+							</div>
+						</label> 
+					</form>
+				</div>
+			</div>
 			
+
+
+<div class="clear"></div>
+
+<form action="url">
+	
+		<label  for="submit">
+			<span class="srb-button">
+				<span class="srb-button__text" >SUBMIT</span>
+			</span>
+		</label>
+
+		<div hidden>
+        <input id="submit" type="submit">
+        </div>
+</form>
+<form action="url">
+	
+		<label for="reset">
+			<span class="srb-button">
+				<span class="srb-button__text" >RESET</span>
+			</span>
+		</label>
+
+		<div hidden>
+        <input id="reset" type="reset">
+        </div>
+</form>
+<form action="url">
+	
+		<label for="button">
+			<span class="srb-button">
+				<span class="srb-button__text" >BUTTON</span>		
+		</span>
+		</label>
+
+		<div hidden>
+        <input id="button" type="button">
+        </div>	
+</form>
+
+	<form action="url">  
+	<label for="files">   
+        <div class="button">
+        	<span class="icon" data-icon="sprit"></span>
+        	<span class="button__text">UPLOAD FILE</span>
+        </div>
+        </label>
+        <div hidden>
+        <input id="files" type="files" required>
+        </div>
+  	</form>
+
+	
+	</section>
+</div>
+<div class="empty"></div>				
 	<footer>
 	</footer>
 
