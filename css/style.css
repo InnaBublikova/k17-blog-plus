@@ -305,9 +305,6 @@ time::before {
 .button{
 	display: inline-block;
 	vertical-align: top;
-	line-height: 26px
-	height: 44px
-	width: 298px;
 	border: 1px solid #999;
 	padding: 9px 25px 9px 22px;
 	margin-top: 20px;
@@ -333,14 +330,33 @@ time::before {
 	pointer-events: none;
 	vertical-align: text-bottom;
 }
-.button: hover ~.icon{
+.button:hover .icon{
 	background-position-x: -72px;
 }
-.button: active ~.icon{
+.button:active .icon{
 	background-position-x: -48px;
 }
 
-
+.button2 {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	background-color: transparent;
+	border: 1px solid #999;
+	padding: 10px 23px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-family: Roboto;
+	font-size: 16px;
+}
+.button2:hover{
+    background-color: #52359d;
+    color: #fff;
+}
+.button2:active{
+	background-color: #000;
+    color: #999;
+}
 .ui-control{
 	position: relative;
 }
@@ -367,13 +383,6 @@ input label select{
 	-ms-appearance:none;
 
 }
-/*input[type="text"]::-moz-placeholder {
-    vertical-align: top;
-   }
-   input[type="text"]::-webkit-input-placeholder { vertical-align: top;}
-   input[type="text"]:-ms-input-placeholder { vertical-align: top; }
-   input[type="text"]::-ms-input-placeholder { vertical-align: top; }
-   input[type="text"]::placeholder { vertical-align: top; }*/
 
 .ui-control__select{
 	width: 298px;
@@ -412,35 +421,6 @@ select{
 }
 
 
-.srb-button{
-	display: block;
-	vertical-align: middle;
-	float: left;
-	width: 104px;
-	height: 42px;
-	box-sizing: content-box;
-	line-height: 20px;
-	border: 1px solid #999;
-	/*padding:18px 8px;*/
-	margin-right: 20px;
-	margin-top: 20px; 
-
-}
-.srb-button__text{
-	display: inherit;
-	line-height: 22px;
-	padding: 10px;
-	padding-left: 20px;
-
-}
-.srb-button:hover{
-    background-color: #52359d;
-    color: #fff;
-}
-.srb-button:active{
-	background-color: #000;
-    color: #999;
-}
 .ui-control__element1{
 	width: 250px;
     height: 40px;
@@ -579,6 +559,8 @@ select{
 	width: 598px;
 	height: 167px;
 	padding-left: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
     border: 1px solid #999;
     
 }
@@ -599,6 +581,8 @@ select{
 	width: 568px;
 	height: 167px;
 	padding-left: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
     border: 1px solid #999;
     
 }
